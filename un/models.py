@@ -21,7 +21,7 @@ class Products(models.Model):
         return self.name
 
 
-class Hamkorlar(models.Model):
+class Partner(models.Model):
     name = models.CharField(max_length=100, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
